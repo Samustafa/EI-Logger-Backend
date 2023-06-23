@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      username: ${PROD_MONGO_USER}
+      password: ${PROD_MONGO_PASSWORD}
+      database: ${PROD_MONGO_DB}
+      port: ${PROD_MONGO_PORT}
+      host: ${PROD_MONGO_HOST}
